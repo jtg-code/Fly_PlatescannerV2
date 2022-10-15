@@ -1,0 +1,279 @@
+body {
+    background-image: none !important;
+    font-family: sans-serif;
+    /* background: url("https://top-mmo.fr/wp-content/uploads/2021/05/Un-joueur-rare-de-GTA-5-termine-une-course-No.jpg") fixed no-repeat center; */
+    /* background-size: 100% 100%; */
+}
+
+#rear {
+    margin-left: 10px;
+    margin-top: 577.5px;
+    color: yellow;
+    position: absolute;
+    height: 175px;
+    width: 500px;
+    border: 2px solid rgb(0, 136, 255);
+    border-radius: 7px;
+    background-color: black;
+    /* background-image: url(bg.png); */
+}
+
+#front {
+    margin-left: 10px;
+    margin-top: 327.5px;
+    position: absolute;
+    color: yellow;
+    height: 175px;
+    width: 500px;
+    border: 2px solid rgb(0, 136, 255);
+    border-radius: 7px;
+    background-color: black;
+    /* background-image: url(bg.png); */
+}
+
+#kennzeichenF {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 43.25px;
+}
+
+#kennzeichenR {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 43.25px;
+}
+
+#Kennzeichenscanner {
+    position: absolute;
+}
+
+#logDiv {
+    position: absolute;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+    background:rgba(104, 104, 104, 0.6);
+    /* height: 900px; */
+    height: auto;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+#logRevoke {
+    position: absolute;
+    height: 40px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 40px;
+    background-color: darkgray;
+    color: white;
+    font-size: 25px;
+}
+
+#logRevoke:hover {
+    height: 40px;
+    width: 125px;
+    margin-left: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+}
+
+#logRevoke:active {
+    height: 40px;
+    width: 125px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+#platelogHeader, #speedHeader {
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+
+.logentry {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    height: 150px;
+}
+
+#logSpeed {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#logDate {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#logName {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#logFine {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+
+/* Speed */
+
+@font-face {
+    font-family: buttonFont;
+    src: url(fonts/Fragmentcore.otf);
+}
+
+#speedField {
+    border-radius: 7px;
+    position: absolute;
+    margin-left: 50px;
+    height: 170px;
+    width: 450px;
+    color: aliceblue;
+    background-color: black;
+    font-size: 70px;
+    font-family: buttonFont;
+}
+
+#speedLabel {
+    margin-top: 55px;
+    font-size: 70px;
+    font-family: buttonFont;
+    margin-left: 500px;
+    position: absolute;
+}
+
+#speedSubmit {
+    border-radius: 7px;
+    margin-left: 700px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 170px;
+    font-family: buttonFont;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+}
+
+#speedSubmit:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+#speedSubmit:active {
+    background-color: rgb(39, 39, 39);
+}
+
+#speedClose {
+    border-radius: 7px;
+    margin-left: 900px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 170px;
+    font-family: buttonFont;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+}
+
+#speedClose:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+#speedClose:active {
+    background-color: rgb(39, 39, 39);
+}
+
+#speedStart {
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+    background-color: rgb(0, 214, 0);
+    font-family: buttonFont;
+    font-weight: bolder;
+    width: 170px;
+    height: 170px;
+    font-size: 60px;
+    outline: none;
+}
+
+#speedStart:hover {
+    background-color: rgb(0, 194, 0);
+}
+
+#speedStart:active {
+    background-color: rgb(0, 180, 0);
+}
+
+#speedStop {
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+    background-color: rgb(214, 0, 0);
+    font-family: buttonFont;
+    font-weight: bolder;
+    width: 170px;
+    height: 170px;
+    font-size: 60px;
+    outline: none;
+}
+
+#speedStop:hover {
+    background-color: rgb(194, 0, 0);
+}
+
+#speedStop:active {
+    background-color: rgb(180, 0, 0);
+}
+
+#speedImg {
+    margin-left: 50px;
+    margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 170px;
+    position: absolute;
+}
+
+
+#speedDiv {
+    position: absolute;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 15%;
+    width: 60%;
+    margin-left: 20%;
+    background:rgba(104, 104, 104, 0.6);
+    height: 50%;
+    /* height: auto; */
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="jquery.js"></script>
+        <script src="index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="logDiv">
+			<h1 id="platelogHeader">PLATELOG</h1>
+			<p id="platelogLog">
+				<!-- <p class="logentry">
+					<br>
+					<span id="logName">NAME: Julius Gottschling</span> <span id="logFine">FINE: €</span><br>
+					<span id="logDate">DATE: </span><br>
+					<span id="logSpeed">SPEED:</span><br>
+					<button id="logRevoke" onclick="revoke(1)">REVOKE</button>
+				</p> -->
+			</p>
+		</div>
+
+		<div id="speedDiv">
+			<h1 id="speedHeader">RADAR TRAP</h1>
+			<input id="speedField"  value="50" min="1" type="number">
+			<label id="speedLabel" for="speedField">KM/H</label>
+			<button id="speedSubmit" onclick="setSpeed()">SET</button>
+			<button id="speedClose" onclick="speedClose()">Close</button>
+			<button id="speedStart" onclick="speedStart()">Start</button>
+			<button id="speedStop" onclick="speedStop()">Stop</button>
+			<img src="" alt="" id="speedImg">
+		</div>
+
+		<div id="Kennzeichenscanner">
+			<div id="front">
+				<h1 id="kennzeichenF">ABCEFGH</h1>
+			</div>
+	
+			<div id="rear">
+				<h1 id="kennzeichenR">ABCEFGH</h1>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- <p id="platelogLog"><p class="logentry"><br><a id="logName">NAME: </a><br><a id="logDate">DATE: </a><br><a id="logSpeed">SPEED: </a><br><button id="logRevoke" onclick="revoke(1)">REVOKE</button></p></p> -->
+
+<!-- <p class="logentry" id=item><br><span id="logName">NAME: Julius Gottschling</span> <span id="logFine">FINE: €</span><br><span id="logDate">DATE: </span><br><span id="logSpeed">SPEED:</span><br><button id="logRevoke" onclick="revoke(1)">REVOKE</button></p> -->
